@@ -1,0 +1,531 @@
+
+*{
+    background-color: #FDFAF6;
+    margin: 0.1px;
+    padding: 0.11px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* The nav bar*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 10%;
+    background-color: #FFE3E1;
+    position: fixed;
+    width: 85%;
+    margin: 0;
+    height: 40px;
+}
+
+.logo {
+    font-family: 'Borel', cursive;
+    color: #ff9494;
+    font-size: 25px;
+    background-color: transparent;
+    padding-top: 5px;
+}
+
+nav, ul{
+    list-style: none;
+    background-color: #FFE3E1;
+    padding-top: 5px;
+}
+
+li{
+    display: inline;
+    padding: 0px 20px;
+    background-color: #FFE3E1;
+}
+
+a {
+    text-decoration: none;
+    background-color: #FFE3E1;
+    font-size: 19px;
+    color: hsl(0, 100%, 72%);
+}
+
+a:hover{
+    text-decoration: underline #ff9494;
+    text-shadow: 1px 1px 10px #FDFAF6;
+    transition: 1s;
+}
+
+
+
+
+/*home page*/
+
+.home{
+    text-align: center;
+    font-family: 'Borel', cursive;
+    margin-top: 160px;
+}
+
+.heading1{
+    color: #ff9494;
+    font-size: 70px;
+    height: 120px;
+}
+
+.heading2{
+    color: #ff9494;
+    font-size: 50px;
+    height: 100px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+}
+
+.shopbttn{
+    margin-top: 50px;
+    font-family: 'Borel', cursive;;
+    background-color: #FFD1D1;
+    color: hsl(0, 100%, 72%);
+    border-style: none;
+    font-size: 22px;
+    padding: 30px;
+    border-radius: 50px;
+    height: 90px;
+}
+
+.shopbttn a {
+    background-color: transparent;
+}
+
+
+
+
+
+
+/*About page*/
+
+.about{
+    background-color: #FFE3E1;
+    margin: 115px 45px 0px 45px;
+    padding: 40px;
+    height: 430px;
+    border-radius: 20px;
+}
+
+.aboutc{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+
+}
+
+.aboutc div {
+    background-color: transparent;
+}
+
+.habout{
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Borel', cursive;;
+    text-shadow: 1px 1px 50px hsl(0, 100%, 72%);
+    font-size: 40px;
+    color: #FDFAF6;
+}
+
+.pabout{
+    background-color: transparent;
+    padding-top: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+    font-family: 'Borel', cursive;
+    color: hsl(0, 48%, 23%);
+    text-shadow: 1px 1px 10px #Fff;
+    font-size: 15px;
+}
+
+.about img {
+    background-color: transparent;
+    width: 240px;
+    height: 360px;
+    margin-right: 80px;
+    border-radius: 20px;
+}
+
+
+
+
+
+/*shop page*/
+
+.carth1{
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Borel', cursive;;
+    text-shadow: 1px 1px 35px hsl(0, 100%, 72%);
+    font-size: 70px;
+    color: #fff;
+    margin-top: 120px;
+}
+
+.shop{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px 10% 10px 10%;
+}
+
+.cart{
+    margin-right: 20px;
+    text-align: center;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    box-shadow: 0 10px 15px -3px #FFD1D1, 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.cart:hover{
+    box-shadow: 0 10px 30px -3px #ff9494, 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transition: 0.5s;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 330px;
+}
+
+.image{
+    padding-top: 10px;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 260px;
+}
+
+.fname{
+    background-color: transparent;
+    font-family: 'Borel', cursive;
+    color: #ff9494;
+    margin-top: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.pricediv{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.pricediv p {
+    margin: 0;
+    background-color: transparent;
+}
+
+.heartbttn{
+    margin-left: 10px;
+    font-size: 25px;
+    padding: 0px;
+    border-radius: 20px;
+    border-color: #FFD1D1;
+    border-style: solid;
+}
+
+.heart{
+    background-color: white;
+    padding: 8px 10px 5px 10px;
+    margin: 0;
+    border-radius: 20px;
+    color:#FFD1D1;
+}
+
+.quantityd{
+    background-color: transparent;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 26%;
+}
+
+.plus, .minus{
+    border-radius: 20px;
+    padding: 0px 10px;
+    border-color: #FFD1D1;
+    color: #ff9494;
+    border-style: solid;
+    background-color: #fff;
+}
+
+.quantityd button:active{
+    background-color: #FFD1D1;
+    color: #FDFAF6;
+}
+
+.quantityd p {
+    padding: 10px 20px;
+    margin: 0;
+    background-color: transparent;
+    color: #ff9494;
+}
+
+.addbttn {
+    color: hsl(0, 100%, 72%);
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #fff;
+    border: 1px solid #fff;
+    transition: all .3s;
+    box-shadow: 6px 6px 20px #FFD1D1,
+                -6px -6px 12px #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+   
+.addbttn:active {
+color: hsl(0, 100%, 72%);
+box-shadow: inset 4px 4px 12px #FFD1D1,
+            inset -4px -4px 12px #ffffff;
+}
+
+.total{
+    background-color: transparent;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    padding-left: 500px;
+    margin-top: 0px;
+}
+
+.p{
+    background-color: transparent;
+    margin: 0;
+    padding: 10px;
+    font-size: 30px;
+    color: hsl(0, 100%, 72%);
+}
+
+.total button {
+    color: hsl(0, 100%, 72%);
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: transparent;
+    border: 1px solid #FDFAF6;
+    transition: all .3s;
+    box-shadow: 6px 6px 20px #ff9494,
+                -6px -6px 12px #FDFAF6;
+    margin-left: 100px;
+}
+
+.total button:active {
+    color: hsl(0, 100%, 72%);
+    box-shadow: inset 4px 4px 12px #ff9494,
+                inset -4px -4px 12px #FDFAF6;
+}
+
+.nb{
+    font-family: 'Borel', cursive;;
+    padding: 0;
+    margin: 0;
+    color: #ff9494;
+    margin-top: 100px;
+    margin-left: 60px;
+
+}
+
+
+
+
+/*contact page*/
+
+.contact{
+    background-color: #FFE3E1;
+    margin: 100px 120px 30px 120px;
+    padding: 60px;
+    border-radius: 20px;
+}
+
+.containerc{
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+}
+
+.containerc img {
+    width: 330px;
+    background-color: transparent;
+    border-radius: 20px;
+    padding-left: 50px;
+}
+
+.containerc div{
+    background-color: transparent;
+}
+
+.contact h1 {
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Borel', cursive;;
+    text-shadow: 1px 1px 50px hsl(0, 100%, 72%);
+    font-size: 40px;
+    color: #FDFAF6;
+    padding-bottom: 40px;
+}
+
+.cont{
+    display: flex;
+    background-color: transparent;
+    padding-left: 100px;
+}
+
+.cont p {
+    padding: 0px 20px 10px 10px;
+    margin: 0;
+    background-color: transparent;
+}
+
+.cont1{
+    background-color: transparent;
+    padding-top: 30px;
+}
+
+.contactf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+}
+
+.cinput{
+    width: 400px;
+    padding: 12px 15px;
+    margin: 0px 0px 20px 0px;
+    box-shadow: inset 4px 4px 12px #FFE3E1,
+                inset -4px -4px 12px #fff;
+    border-color: #FFD1D1;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.contactf button{
+    color: hsl(0, 100%, 72%);
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    border: 1px #FFD1D1;
+    transition: all .3s;
+    box-shadow: 6px 6px 20px hsl(0, 100%, 72%),
+                -6px -6px 12px #FDFAF6;
+    border-style: solid;
+    background: #FFD1D1;
+    margin-top: 30px;
+}
+
+.contactf button:active {
+    color: hsl(0, 100%, 72%);
+    box-shadow: inset 4px 4px 12px hsl(0, 100%, 72%),
+                inset -4px -4px 12px #FDFAF6;
+}
+
+.cinput:focus {
+    outline: 0;
+    border-color: #ff9494;
+}
+
+
+
+
+/*sign up page*/
+
+.container {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px #ff9494;
+    width: 400px;
+    margin-left: 37%;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+  
+h2 {
+    text-align: center;
+    margin: 0 0 20px;
+    font-family: 'Borel', cursive;;
+    text-shadow: 1px 1px 2 hsl(0, 100%, 72%);
+    color: hsl(0, 100%, 72%);
+}
+  
+.form {
+    padding: 30px 40px;
+    border-radius: 20px;
+}
+  
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+  
+.form-control label {
+    color: #ff9494;
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.form-control input {
+    border: 2px solid #FFD1D1;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+  
+.form-control input:focus {
+    outline: 0;
+    border-color: #ff9494;
+}
+
+.form button {
+    cursor: pointer;
+    background-color: #ff9494;
+    border: 2px solid #ff9494;
+    border-radius: 20px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+
+
+/*footer*/
+
+footer{
+    background-color: #ff9494;
+    height: 100px;
+    text-align: center;
+}
+
+footer p {
+    background-color: transparent;
+    margin: 0;
+    padding-top: 45px;
+}

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Garden Palette</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <!--The navbar-->
+        <h3 class="logo">The Garden Palette</h3>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#shop">shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#sign">Sign in</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!--The home page-->
+        <div id="home"></div>
+        <div class="home">
+            <h1 class="heading1">Welcome to The Garden Palette,</h1>
+            <h2 class="heading2">Where Floral Dreams Come to Life!</h2>
+            <p class>Explore a kaleidoscope of exquisite blooms and vibrant blossoms. Discover nature's artisty at its finest and find the perfect flowers to paint your world with beauty and joy.</p>
+            <button class="shopbttn"><a href="#shop">Shop Now!</a></button>
+        </div>
+
+
+        <!--The aboute page-->
+        <div id="about"></div>
+        
+        <div class="about">
+            <h1 class="habout">About us</h1>
+            <div class="aboutc">
+            <div>
+                <p class="pabout">At The Garden Palette, we believe in the timeless allure of flowers and their ability to evoke emotions, enrich moments, and beautify every occasion. Our passion for nature's delicate masterpieces drives us to curate a mesmerizing collection of exquisite blooms from around the world. With an eye for artistry and a commitment to quality, we take pride in offering a diverse palette of flowers that cater to every taste and celebration.</p>
+                <p class="pabout">Join us on this enchanting floral adventure, and let The Garden Palette infuse color, fragrance, and heartfelt sentiments into your world. Celebrate life's precious moments with the beauty of nature's finest – because in every petal, a story unfolds, and in every bloom, memories are etched forever.</p>
+            </div>
+            <div>
+                <img src="about.jpg">
+            </div>
+            </div>
+        </div>
+
+
+        <!--The shop page-->
+        <div id="shop"></div>
+        <h1 class="carth1">Our Flowers</h1>
+        <div class="shop">
+
+            <!--carts of the products-->
+            <div class="cart">
+                <img class="image" src="img1.jpg" alt="img">
+                <p class="fname">Roses</p>
+                <div class="pricediv">
+                    <p>Price :</p>
+                    <p class="price">50</p>
+                    <p>dt</p>
+                </div>
+
+                <div class="quantityd">
+                    <button class="minus">-</button>
+                    <p class="quantity">0</p>
+                    <button class="plus">+</button>
+                    <button class="heartbttn"><span class="heart" onclick="setMyFavorite();"> &#9825;</span></button>
+                </div>
+
+                <button class="addbttn">Add</button>
+
+            </div>
+
+            <div class="cart">
+                <img class="image" src="img2.jpg" alt="img">
+                <p class="fname">Tulips</p>
+                <div class="pricediv">
+                    <p>Price :</p>
+                    <p class="price">18</p>
+                    <p>dt</p>
+                </div>
+
+                <div class="quantityd">
+                    <button class="minus">-</button>
+                    <p class="quantity">0</p>
+                    <button class="plus">+</button>
+                    <button class="heartbttn"><span class="heart" onclick="setMyFavorite();"> &#9825;</span></button>
+                </div>
+
+                <button class="addbttn">Add</button>
+
+            </div>
+
+            <div class="cart">
+                <img class="image" src="img3.jpg" alt="img">
+                <p class="fname">Gerbera</p>
+                <div class="pricediv">
+                    <p>Price :</p>
+                    <p class="price">30</p>
+                    <p>dt</p>
+                </div>
+
+                <div class="quantityd">
+                    <button class="minus">-</button>
+                    <p class="quantity">0</p>
+                    <button class="plus">+</button>
+                    <button class="heartbttn"><span class="heart" onclick="setMyFavorite();"> &#9825;</span></button>
+                </div>
+
+                <button class="addbttn">Add</button>
+
+            </div>
+
+            <div class="cart">
+                <img class="image" src="img4.jpg" alt="img">
+                <p class="fname">Lisilanthus</p>
+                <div class="pricediv">
+                    <p>Price :</p>
+                    <p class="price">60</p>
+                    <p>dt</p>
+                </div>
+
+                <div class="quantityd">
+                    <button class="minus">-</button>
+                    <p class="quantity">0</p>
+                    <button class="plus">+</button>
+                    <button class="heartbttn"><span class="heart" onclick="setMyFavorite();"> &#9825;</span></button>
+                </div>
+
+                <button class="addbttn">Add</button>
+
+            </div>
+
+            <div class="cart">
+                <img class="image" src="img5.jpg" alt="img">
+                <p class="fname">Pink Roses</p>
+                <div class="pricediv">
+                    <p>Price :</p>
+                    <p class="price">20</p>
+                    <p>dt</p>
+                </div>
+
+                <div class="quantityd">
+                    <button class="minus">-</button>
+                    <p class="quantity">0</p>
+                    <button class="plus">+</button>
+                    <button class="heartbttn"><span class="heart" onclick="setMyFavorite();"> &#9825;</span></button>
+                </div>
+
+                <button class="addbttn">Add</button>
+
+            </div>
+
+            <div class="cart">
+                <img class="image" src="img6.jpg" alt="img">
+                <p class="fname">Camellia</p>
+                <div class="pricediv">
+                    <p>Price :</p>
+                    <p class="price">45</p>
+                    <p>dt</p>
+                </div>
+
+                <div class="quantityd">
+                    <button class="minus">-</button>
+                    <p class="quantity">0</p>
+                    <button class="plus">+</button>
+                    <button class="heartbttn"><span class="heart" onclick="setMyFavorite();"> &#9825;</span></button>
+                </div>
+
+                <button class="addbttn">Add</button>
+
+            </div>
+
+            <div class="cart">
+                <img class="image" src="img7.jpg" alt="img">
+                <p class="fname">Bouquet 1</p>
+                <div class="pricediv">
+                    <p>Price :</p>
+                    <p class="price">75</p>
+                    <p>dt</p>
+                </div>
+
+                <div class="quantityd">
+                    <button class="minus">-</button>
+                    <p class="quantity">0</p>
+                    <button class="plus">+</button>
+                    <button class="heartbttn"><span class="heart" onclick="setMyFavorite();"> &#9825;</span></button>
+                </div>
+
+                <button class="addbttn">Add</button>
+
+            </div>
+
+            <div class="cart">
+                <img class="image" src="img8.jpg" alt="img">
+                <p class="fname">Bouquet 2</p>
+                <div class="pricediv">
+                    <p>Price :</p>
+                    <p class="price">70</p>
+                    <p>dt</p>
+                </div>
+
+                <div class="quantityd">
+                    <button class="minus">-</button>
+                    <p class="quantity">0</p>
+                    <button class="plus">+</button>
+                    <button class="heartbttn"><span class="heart" onclick="setMyFavorite();"> &#9825;</span></button>
+                </div>
+
+                <button class="addbttn">Add</button>
+
+            </div>
+
+            <div class="cart">
+                <img class="image" src="img9.jpg" alt="img">
+                <p class="fname">Roses</p>
+                <div class="pricediv">
+                    <p>Price :</p>
+                    <p class="price">60</p>
+                    <p>dt</p>
+                </div>
+
+                <div class="quantityd">
+                    <button class="minus">-</button>
+                    <p class="quantity">0</p>
+                    <button class="plus">+</button>
+                    <button class="heartbttn"><span class="heart" onclick="setMyFavorite();"> &#9825;</span></button>
+                </div>
+
+                <button class="addbttn">Add</button>
+
+            </div>
+
+            <div class="cart">
+                <img class="image" src="img10.jpg" alt="img">
+                <p class="fname">Bouquet 3</p>
+                <div class="pricediv">
+                    <p>Price :</p>
+                    <p class="price">65</p>
+                    <p>dt</p>
+                </div>
+
+                <div class="quantityd">
+                    <button class="minus">-</button>
+                    <p class="quantity">0</p>
+                    <button class="plus">+</button>
+                    <button class="heartbttn"><span class="heart" onclick="setMyFavorite();"> &#9825;</span></button>
+                </div>
+
+                <button class="addbttn">Add</button>
+
+            </div>
+
+            <div class="cart">
+                <img class="image" src="img11.jpg" alt="img">
+                <p class="fname">Bouquet 4</p>
+                <div class="pricediv">
+                    <p>Price :</p>
+                    <p class="price">70</p>
+                    <p>dt</p>
+                </div>
+
+                <div class="quantityd">
+                    <button class="minus">-</button>
+                    <p class="quantity">0</p>
+                    <button class="plus">+</button>
+                    <button class="heartbttn"><span class="heart" onclick="setMyFavorite();"> &#9825;</span></button>
+                </div>
+
+                <button class="addbttn">Add</button>
+
+            </div>
+
+            <div class="cart">
+                <img class="image" src="img12.jpg" alt="img">
+                <p class="fname">Tulips</p>
+                <div class="pricediv">
+                    <p>Price :</p>
+                    <p class="price">45</p>
+                    <p>dt</p>
+                </div>
+
+                <div class="quantityd">
+                    <button class="minus">-</button>
+                    <p class="quantity">0</p>
+                    <button class="plus">+</button>
+                    <button class="heartbttn"><span class="heart" onclick="setMyFavorite();"> &#9825;</span></button>
+                </div>
+
+                <button class="addbttn">Add</button>
+
+            </div>
+        </div>
+
+        <!--Total price part-->
+        <p class="nb">Select the number of flowers to order and press add to see the total :</p>
+        <div class="total">
+            <p class="p">Total:</p>
+            <p class="p" id="totalle">0</p>
+            <p class="p">dt</p>
+            <button class="buy">Buy Now!</button>
+        </div>
+
+
+
+        <!--contact-->
+        <div id="contact"></div>
+        <div class="contact">
+            <h1>Contact us</h1>
+
+            <div class="cont">
+                <p>E-mail:</p>
+                <p>thegardenpalette@gmail.com</p>
+            </div>
+
+            <div class="cont">
+                <p>Phone Number:</p>
+                <p>+216 00000000</p>
+            </div>
+
+            <div class="cont1">
+                <h1>We would love to hear from you!</h1>
+                <div class="containerc">
+                <div>
+                    <img src="contact.jpg">
+                </div>
+                <div>
+                <form class="contactf">
+                    <input id="cname" class="cinput" type="text" placeholder="Name">
+                    <input id="cemail" class="cinput" type="text" placeholder="E-mail">
+                    <input id="subject" class="cinput" type="text" placeholder="Subject">
+                    <textarea class="cinput" type="text" placeholder="Your Message" cols="30" rows="10"></textarea>
+                    <button id="csubmit" type="submit">Submit</button>
+                </form>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--The sign up page-->
+        <div id="sign" class="signup">
+            <div class="container">
+
+                <form id="form" class="form">
+                    <h2>Register With Us</h2>
+
+                    <div class="form-control">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" placeholder="Enter username" />
+                    </div>
+
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Enter email" />
+                    </div>
+
+                    <div class="form-control">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter password" />
+                    </div>
+
+                    <div class="form-control">
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" id="password2" placeholder="Enter password again" />
+                    </div>
+
+                    <button>Submit</button>
+
+                </form>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright © 2023-The Garden Palette</p>
+    </footer>
+
+    <script src = "script.js"></script>
+</body>
+</html>
